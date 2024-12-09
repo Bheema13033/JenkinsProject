@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/Qapitol/IdeaProjects/Cricket/src/test/java/com/Cricket/Cricket.java">
-        <classes/>
+<suite  name="jenkins">
+    <test name="cricket">
+        <classes>
+            <class name="com.Cricket.Cricket"></class>
+        </classes>
+        
     </test>
-</suite>
+     </suite>
+
+
