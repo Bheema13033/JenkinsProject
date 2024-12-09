@@ -4,12 +4,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import java.util.List;
 
 
 public class Cricket {
-    public static void main(String[] args) throws InterruptedException {
+    @Test
+    public  void cricket() throws InterruptedException {
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.cricbuzz.com/cricket-series/8525/womens-big-bash-league-2024/points-table");
         driver.manage().window().maximize();
